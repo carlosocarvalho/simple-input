@@ -1,5 +1,5 @@
 {
-    "name" : "carlosocarvalho/simpleInput",
+    "name" : "carlosocarvalho/simple-input",
     "description": "Simple input for get request inputs (post,get,put,delete)",
     "keywords": ["input","get","post","put","delete"],
     "authors": [

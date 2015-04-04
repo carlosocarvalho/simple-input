@@ -7,8 +7,7 @@
        {
             "name": "Carlos O Carvalho",
             "email": "contato@carlosocarvalho.com.br",
-            "homepage": "http://carlosocarvalho.com.br",
-            "role": "Developer"
+            "homepage": "http://carlosocarvalho.com.br"
         }
     ],
     "license":"MIT",

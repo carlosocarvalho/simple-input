@@ -1,0 +1,22 @@
+{
+    "name" : "carlosocarvalho/simpleInput",
+    "description": "Simple input for get request inputs (post,get,put,delete)",
+    "keywords": ["input","get","post","put","delete"],
+    "authors": [
+       {
+            "name": "Carlos O Carvalho",
+            "email": "contato@carlosocarvalho.com.br",
+            "homepage": "http://carlosocarvalho.com.br",
+            "role": "Developer"
+        }
+    ],
+    
+    "autoload": {
+        "psr-0": {
+            "SimpleInput": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

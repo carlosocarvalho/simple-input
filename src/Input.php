@@ -1,6 +1,6 @@
 <?php 
 
-namespace Carlosocarvalo\SimpleInput;
+namespace Carlosocarvalho\SimpleInput;
 
 class Input{
 

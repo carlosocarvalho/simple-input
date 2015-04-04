@@ -10,7 +10,7 @@
             "role": "Developer"
         }
     ],
-    
+    "license":"MIT",
     "autoload": {
         "psr-0": {
             "SimpleInput": "src/"

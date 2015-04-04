@@ -1,6 +1,7 @@
 <?php 
 
-namespace SimpleInput;
+namespace Carlosocarvalo\SimpleInput;
+
 class Input{
 
    private static $methods = array(

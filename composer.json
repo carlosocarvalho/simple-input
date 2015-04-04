@@ -13,7 +13,7 @@
     "license":"MIT",
     "autoload": {
        "psr-0": {
-            "Carlosocarvalho\\SimpleInput": "src"
+            "Carlosocarvalho\\SimpleInput\\Input": "src"
         }
     },
     "require": {

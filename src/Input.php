@@ -2,6 +2,16 @@
 
 namespace Carlosocarvalho\SimpleInput\Input;
 
+/**
+ * Input
+ * Request simple method input streaming data
+ * by post|get|put|delete
+ * @version 1.0.0
+ * @package CarlosOcarvalho
+ * @category input
+ * 
+ */
+
 class Input{
 
    private static $methods = array(
@@ -17,7 +27,7 @@ class Input{
   private static $_post_args = array();
   private static $_put_args = array();
   private static $_delete_args = array();
-   function __construct(){}
+  public function __construct(){}
    
   static function post($key = null){
    	   self::runDataMethod('post'); 
@@ -38,12 +48,12 @@ class Input{
        return FALSE;    
    }
 
- static function delete($key){
+ static function delete($key= null){
    	 self::runDataMethod('delete'); 
        if(isset(self::$_delete_args[$key])){return self::$_delete_args[$key];}
        return FALSE; 
    }
-   function runDataMethod($key = null){
+  protected static function runDataMethod($key = null){
               $method = $_SERVER['REQUEST_METHOD'];
               parse_str(file_get_contents('php://input'), $vars);
               //simulate metho =n

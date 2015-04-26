@@ -1,6 +1,6 @@
 {
     "name" : "carlosocarvalho/simple-input",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "description": "Simple input for get request inputs (post,get,put,delete)",
     "keywords": ["input","get","post","put","delete"],
     "authors": [

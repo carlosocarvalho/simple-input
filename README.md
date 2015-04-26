@@ -1,5 +1,8 @@
-# simple-input
+# Simple Input
 simple input php for get info (get,post,delete,put)
+
+[![Build Status](https://travis-ci.org/carlosocarvalho/simple-input.svg?branch=1.0.2)](https://travis-ci.org/carlosocarvalho/simple-input)
+
 
 
 ##Install

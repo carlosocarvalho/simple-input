@@ -54,6 +54,8 @@ class Input{
        return FALSE; 
    }
   protected static function runDataMethod($key = null){
+	      if(! isset($_SERVER['REQUEST_METHOD']))return false;
+		  
               $method = $_SERVER['REQUEST_METHOD'];
               parse_str(file_get_contents('php://input'), $vars);
               //simulate metho =n

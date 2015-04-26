@@ -1,6 +1,6 @@
 <?php
 
-require_once '../src/Input.php';
+require_once './src/Input.php';
 
 ini_set('display_errors',1);
 

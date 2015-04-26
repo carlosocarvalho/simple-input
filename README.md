@@ -2,7 +2,7 @@
 simple input php for get info (get,post,delete,put)
 
 [![Build Status](https://travis-ci.org/carlosocarvalho/simple-input.svg?branch=1.0.2)](https://travis-ci.org/carlosocarvalho/simple-input)
-[![Latest Stable Version](https://poser.pugx.org/carlosocarvalho/simple-input/v/stable)](https://packagist.org/packages/carlosocarvalho/simple-input) [![Total Downloads](https://poser.pugx.org/carlosocarvalho/simple-input/downloads)](https://packagist.org/packages/carlosocarvalho/simple-input) [![Latest Unstable Version](https://poser.pugx.org/carlosocarvalho/simple-input/v/unstable)](https://packagist.org/packages/carlosocarvalho/simple-input) [![License](https://poser.pugx.org/carlosocarvalho/simple-input/license)](https://packagist.org/packages/carlosocarvalho/simple-input)
+[![Latest Stable Version](https://poser.pugx.org/carlosocarvalho/simple-input/v/stable)](https://packagist.org/packages/carlosocarvalho/simple-input) [![Total Downloads](https://poser.pugx.org/carlosocarvalho/simple-input/downloads)](https://packagist.org/packages/carlosocarvalho/simple-input) [![Latest Unstable Version](https://poser.pugx.org/carlosocarvalho/simple-input/v/unstable)](https://packagist.org/packages/carlosocarvalho/simple-input) [![License](https://poser.pugx.org/carlosocarvalho/simple-input/license)](https://packagist.org/packages/carlosocarvalho/simple-input)[![Coverage Status](https://coveralls.io/repos/carlosocarvalho/simple-input/badge.svg)](https://coveralls.io/r/carlosocarvalho/simple-input)
 
 
 

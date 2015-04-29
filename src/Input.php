@@ -27,7 +27,9 @@ class Input{
   private static $_post_args = array();
   private static $_put_args = array();
   private static $_delete_args = array();
-  public function __construct(){}
+  public function __construct(){
+	  
+  }
    
   static function post($key = null){
    	   self::runDataMethod('post'); 
@@ -54,10 +56,8 @@ class Input{
        return FALSE; 
    }
   protected static function runDataMethod($key = null){
-	      if(! isset($_SERVER['REQUEST_METHOD']))return false;
-		  
-              $method = $_SERVER['REQUEST_METHOD'];
-              parse_str(file_get_contents('php://input'), $vars);
+	          $method = filter_input(INPUT_SERVER, 'REQUEST_METHOD', FILTER_SANITIZE_STRING);
+			  parse_str(file_get_contents('php://input'), $vars);
               //simulate metho =n
               if(isset($vars['__method__'])){ $method = $vars['__method__']; unset($vars['__method__']); unset($_POST);}
              if(!in_array(strtoupper($method), self::$methods) && strtoupper($method) !== strtoupper($key)){ return FALSE;} 

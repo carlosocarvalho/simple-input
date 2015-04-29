@@ -59,7 +59,9 @@ class Input{
 	          $method = filter_input(INPUT_SERVER, 'REQUEST_METHOD', FILTER_SANITIZE_STRING);
 			  parse_str(file_get_contents('php://input'), $vars);
               //simulate metho =n
-              if(isset($vars['__method__'])){ $method = $vars['__method__']; unset($vars['__method__']); unset($_POST);}
+              if(isset($vars['__method__']))
+			     { $method = $vars['__method__']; unset($vars['__method__']);
+			 }
              if(!in_array(strtoupper($method), self::$methods) && strtoupper($method) !== strtoupper($key)){ return FALSE;} 
                
               switch (strtolower($key)) {

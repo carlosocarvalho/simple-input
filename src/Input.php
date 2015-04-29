@@ -70,16 +70,11 @@ class Input{
                		 self::$_delete_args = $vars;
                		break;
                	 	case 'post':
-               	 		if(!isset($_POST)){
-               		    self::$_post_args = $vars;
-               		}else{
-               			
-               		 self::$_post_args = $_POST;
-               		}
-               		break;
+                       self::$_post_args = $vars;
+               	 	break;
                 default:
                	case 'get':
-               		 self::$_get_args = $_GET;
+               		 self::$_get_args = $vars;
                		break;
                } 
 

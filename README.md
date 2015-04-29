@@ -8,6 +8,10 @@ simple input php for get info (get,post,delete,put)
 
 ##Install
 Via composer
+> { "require": {
+            "carlosocarvalho/simple-input": "1.0.0"
+             }
+            }
 
 ### Example Use
 > <?php

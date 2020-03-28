@@ -6,37 +6,49 @@ simple input php for get info (get,post,delete,put)
 
 
 
-##Install
-Via composer
-> { "require": {
+### Install Via composer
+
+```bash
+composer require carlosocarvalho/simple-input
+
+```
+Or configure composer.json
+```json
+{ 
+  "require": {
             "carlosocarvalho/simple-input": "1.0.0"
              }
-            }
-
+ }
+```
 ### Example Use
-> <?php
->
->use Carlosocarvalho\SimpleInput\Input\Input;
->
+```php
 
-sending data post|get|put|delete
+<?php
 
-> $post = Input::post('key');
+use Carlosocarvalho\SimpleInput\Input\Input;
 
-> $post_all =  Input::post();
+#sending data post|get|put|delete
 
-> $get = Input::get('key');
+$post = Input::post('key');
 
-> $get_all =  Input::get();
+$post_all =  Input::post();
+
+$get = Input::get('key');
+
+$get_all =  Input::get();
+```
 
 #### Important sending form method post with php, use input hidden[name="_method" value="put|delete"]
-> $put = Input::put('key');
 
-> $put_all = Input::put();
+```php
+<?php 
+$put = Input::put('key');
 
-> $delete = Input::delete('key');
+$put_all = Input::put();
 
-> $delete_all = Input::delete();
+$delete = Input::delete('key');
+
+$delete_all = Input::delete();
 
 
 
